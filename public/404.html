@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redireccionando...</title>
+    <meta http-equiv="refresh" content="0; URL=./" />
+    <script>
+      // Redirige a la app preservando la ruta original
+      const redirectTo = location.pathname
+        .replace(/^\/floreriaVersallesMexico/, '')  // base path
+        .replace(/\/$/, '')                         // elimina slash final
+        || '/';
+
+      location.replace('/floreriaVersallesMexico/' + '#' + redirectTo + location.search + location.hash);
+    </script>
+  </head>
+  <body>
+    <p>Redireccionando a la página de inicio...</p>
+  </body>
+</html>
