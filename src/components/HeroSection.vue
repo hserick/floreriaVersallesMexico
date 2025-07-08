@@ -1,7 +1,7 @@
 
 <template>
   <section class="relative h-[80vh]">
-    <img src="@/img/banners/inicio1.jpg" alt="Banner" class="absolute inset-0 w-full h-full object-cover z-0"/>
+    <img src="/img/banners/inicio1.jpg" alt="Banner" class="absolute inset-0 w-full h-full object-cover z-0"/>
     <div class="absolute inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center px-4">
       <div class="text-center text-white max-w-xl">
         <h1 class="text-4xl md:text-5xl font-serif mb-4">Flores que hablan por ti</h1>
