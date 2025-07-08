@@ -32,7 +32,7 @@ onBeforeUnmount(() => {
 
 <template>
   <section class="py-12 bg-white">
-    <div class="max-w-6xl mx-auto px-4 text-center">
+    <div class="max-w-6xl mx-auto px-4 text-center" id="destacados">
       <h2 class="text-3xl font-semibold mb-8">Arreglos Destacados</h2>
 
       <div class="relative">
